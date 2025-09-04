@@ -13,5 +13,6 @@ namespace Demo.DataAccess.Repositories.DepartmentsRepositery
 {
     public class DepartmentRepositery(ApplicationDbContext dbContext) : GenericRepository<Department>(dbContext) , IDepartmentRepositery
     {
+
     }
 }
